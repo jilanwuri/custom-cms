@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #111827;
+  --color-secondary: #ffffff;
+  --color-bg: #ffffff;
+  --color-surface: #f9fafb;
+  --color-text: #111827;
+  --color-muted: #6b7280;
+
+  --font-main: 'Georgia', serif;
+
+  --max-width: 960px;
+  --radius: 0px;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}

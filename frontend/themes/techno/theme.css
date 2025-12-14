@@ -1,0 +1,60 @@
+:root {
+  /* color */
+  --color-primary: #00e5ff;
+  --color-secondary: #0f172a;
+  --color-bg: #020617;
+  --color-surface: #020617;
+  --color-text: #e5e7eb;
+  --color-muted: #94a3b8;
+
+  /* font */
+  --font-main: 'Inter', system-ui, sans-serif;
+
+  /* layout */
+  --max-width: 1100px;
+  --radius: 6px;
+}
+
+/* global */
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+/* layout helpers */
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 1.5rem;
+}
+
+/* header */
+.site-header {
+  background: var(--color-secondary);
+  border-bottom: 1px solid var(--color-primary);
+}
+
+/* hero */
+.hero {
+  padding: 4rem 1.5rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+/* blog */
+.blog-card {
+  background: var(--color-secondary);
+  border-left: 4px solid var(--color-primary);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: var(--radius);
+}
