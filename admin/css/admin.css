@@ -1,0 +1,12 @@
+#editor {
+  border: 1px solid #ccc;
+  min-height: 250px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.seo-box {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background: #f4f4f4;
+}

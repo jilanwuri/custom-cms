@@ -1,0 +1,10 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar nav a,
+.topbar nav button {
+  margin-left: 10px;
+}

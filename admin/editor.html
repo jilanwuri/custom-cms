@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Article Editor</title>
+  <link rel="stylesheet" href="css/admin.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <h1>New Article</h1>
+  <nav>
+    <a href="dashboard.html">Dashboard</a>
+  </nav>
+</header>
+
+<main>
+  <input id="title" placeholder="Judul Artikel" />
+
+  <input id="keyword" placeholder="Focus Keyword (SEO)" />
+
+  <textarea id="meta" placeholder="Meta Description"></textarea>
+
+  <div id="editor"></div>
+
+  <div class="seo-box">
+    SEO Score: <strong id="seoScore">0</strong> / 100
+  </div>
+
+  <button id="save">Simpan Artikel</button>
+</main>
+
+<script src="https://unpkg.com/@tiptap/core@2"></script>
+<script src="https://unpkg.com/@tiptap/starter-kit@2"></script>
+
+<script type="module" src="js/editor.js"></script>
+
+</body>
+</html>
